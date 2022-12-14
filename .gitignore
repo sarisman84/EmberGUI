@@ -1,1 +1,6 @@
 EmberGUI/.vs/
+.sln
+.vcxproj
+.filters
+.user
+temp/
