@@ -1,6 +1,3 @@
-[submodule "vendor\\src\\imgui"]
-	path = vendor\\src\\imgui
-	url = https://github.com/ocornut/imgui
 [submodule "EmberGUI/vendor/src/imgui"]
 	path = EmberGUI/vendor/src/imgui
 	url = https://github.com/ocornut/imgui
