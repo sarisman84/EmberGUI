@@ -1,0 +1,9 @@
+[submodule "vendor/src/imnodes"]
+	path = vendor/src/imnodes
+	url = https://github.com/Nelarius/imnodes
+[submodule "vendor/src/imguizmo"]
+	path = vendor/src/imguizmo
+	url = https://github.com/CedricGuillemet/ImGuizmo
+[submodule "vendor/src/imgui"]
+	path = vendor/src/imgui
+	url = https://github.com/ocornut/imgui

@@ -4,3 +4,6 @@ EmberGUI/.vs/
 .filters
 .user
 temp/
+
+.idb
+.pdb
