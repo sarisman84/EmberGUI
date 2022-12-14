@@ -1,1 +1,0 @@
-D:\Projects\Git\EmberGUI\EmberGUI\x64\Debug\EmberGUI.lib

@@ -1,0 +1,10 @@
+﻿  imgui_impl_dx11.cpp
+  imgui_impl_win32.cpp
+  imgui.cpp
+  GraphEditor.cpp
+  ImCurveEdit.cpp
+  ImGradient.cpp
+  ImGuizmo.cpp
+  ImSequencer.cpp
+  imnodes.cpp
+  vendor.vcxproj -> D:\Projects\Git\EmberGUI\EmberGUI\lib\vendor_Debug.lib

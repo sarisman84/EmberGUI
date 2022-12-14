@@ -1,5 +1,6 @@
 include "../premake/utils.lua"
 
+print("\nInitializing vendor")
 project("vendor")
 location "."
 kind "StaticLib"
@@ -10,13 +11,11 @@ output = "%{cfg.buildcfg}"
 solutionDir = "%{wks.location}"
 prjName = "%{prj.name}"
 
-debugdir = "/lib/"
-targetdir = "/lib/"
-objdir = "/temp/lib/"
+setDebugDir(os.realpath("../lib"))
+setTargetDir(os.realpath("../lib"))
+setObjDir(os.realpath("../temp/lib"))
 
-trymkdir(os.realpath("src/"))
-trymkdir(os.realpath("../lib/"))
-trymkdir(os.realpath("../temp/lib/"))
+targetname("%{prj.name}_%{cfg.buildcfg}")
 
 flags {
     "MultiProcessorCompile"
@@ -58,10 +57,10 @@ symbols "on"
 filter "configurations:Release"
 defines "_RELEASE"
 runtime "Release"
-optimize "on"
+optimize "off"
 
 filter "configurations:Retail"
 defines "_RETAIL"
 runtime "Release"
-optimize "on"
+optimize "off"
 
