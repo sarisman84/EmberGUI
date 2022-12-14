@@ -1,0 +1,12 @@
+[submodule "vendor\\src\\imgui"]
+	path = vendor\\src\\imgui
+	url = https://github.com/ocornut/imgui
+[submodule "EmberGUI/vendor/src/imgui"]
+	path = EmberGUI/vendor/src/imgui
+	url = https://github.com/ocornut/imgui
+[submodule "EmberGUI/vendor/src/imguizmo"]
+	path = EmberGUI/vendor/src/imguizmo
+	url = https://github.com/CedricGuillemet/ImGuizmo
+[submodule "EmberGUI/vendor/src/imnodes"]
+	path = EmberGUI/vendor/src/imnodes
+	url = https://github.com/Nelarius/imnodes

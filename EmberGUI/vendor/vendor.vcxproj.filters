@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="imgui">
+      <UniqueIdentifier>{0098A80F-6CAC-D0C0-352E-7420A101CDF1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="imgui\backends">
+      <UniqueIdentifier>{2A126960-16E0-5C66-FF73-CD8CEBE038CB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="imguizmo">
+      <UniqueIdentifier>{76AD0322-627A-5E2D-8B93-4CD577BF93BB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="imnodes">
+      <UniqueIdentifier>{74F1A99C-E0D0-2838-E9E8-B30E55478F99}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\imgui\backends\imgui_impl_dx11.h">
+      <Filter>imgui\backends</Filter>
+    </ClInclude>
+    <ClInclude Include="src\imgui\backends\imgui_impl_win32.h">
+      <Filter>imgui\backends</Filter>
+    </ClInclude>
+    <ClInclude Include="src\imgui\imgui.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="src\imguizmo\GraphEditor.h">
+      <Filter>imguizmo</Filter>
+    </ClInclude>
+    <ClInclude Include="src\imguizmo\ImCurveEdit.h">
+      <Filter>imguizmo</Filter>
+    </ClInclude>
+    <ClInclude Include="src\imguizmo\ImGradient.h">
+      <Filter>imguizmo</Filter>
+    </ClInclude>
+    <ClInclude Include="src\imguizmo\ImGuizmo.h">
+      <Filter>imguizmo</Filter>
+    </ClInclude>
+    <ClInclude Include="src\imguizmo\ImSequencer.h">
+      <Filter>imguizmo</Filter>
+    </ClInclude>
+    <ClInclude Include="src\imguizmo\ImZoomSlider.h">
+      <Filter>imguizmo</Filter>
+    </ClInclude>
+    <ClInclude Include="src\imnodes\imnodes.h">
+      <Filter>imnodes</Filter>
+    </ClInclude>
+    <ClInclude Include="src\imnodes\imnodes_internal.h">
+      <Filter>imnodes</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\imgui\backends\imgui_impl_dx11.cpp">
+      <Filter>imgui\backends</Filter>
+    </ClCompile>
+    <ClCompile Include="src\imgui\backends\imgui_impl_win32.cpp">
+      <Filter>imgui\backends</Filter>
+    </ClCompile>
+    <ClCompile Include="src\imgui\imgui.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="src\imguizmo\GraphEditor.cpp">
+      <Filter>imguizmo</Filter>
+    </ClCompile>
+    <ClCompile Include="src\imguizmo\ImCurveEdit.cpp">
+      <Filter>imguizmo</Filter>
+    </ClCompile>
+    <ClCompile Include="src\imguizmo\ImGradient.cpp">
+      <Filter>imguizmo</Filter>
+    </ClCompile>
+    <ClCompile Include="src\imguizmo\ImGuizmo.cpp">
+      <Filter>imguizmo</Filter>
+    </ClCompile>
+    <ClCompile Include="src\imguizmo\ImSequencer.cpp">
+      <Filter>imguizmo</Filter>
+    </ClCompile>
+    <ClCompile Include="src\imnodes\imnodes.cpp">
+      <Filter>imnodes</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

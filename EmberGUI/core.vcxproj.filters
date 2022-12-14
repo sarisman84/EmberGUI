@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="api">
+      <UniqueIdentifier>{5F5E880B-CB67-887C-54E3-9E7CC0EB937C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="api\framework">
+      <UniqueIdentifier>{BCBDCD2A-287E-4961-F1B8-92DE5D388E3D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="pch">
+      <UniqueIdentifier>{809C880B-ECA5-887C-7521-9F7CE129947C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="api\editors">
+      <UniqueIdentifier>{1aa01c99-dcd5-4751-bd35-8e02cf8e6c60}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="api\EmberGUI.h">
+      <Filter>api</Filter>
+    </ClInclude>
+    <ClInclude Include="api\framework\EmberContext.h">
+      <Filter>api\framework</Filter>
+    </ClInclude>
+    <ClInclude Include="pch\framework.h">
+      <Filter>pch</Filter>
+    </ClInclude>
+    <ClInclude Include="pch\pch.h">
+      <Filter>pch</Filter>
+    </ClInclude>
+    <ClInclude Include="api\editors\Root.h">
+      <Filter>api\editors</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="api\EmberGUI.cpp">
+      <Filter>api</Filter>
+    </ClCompile>
+    <ClCompile Include="api\framework\EmberContext.cpp">
+      <Filter>api\framework</Filter>
+    </ClCompile>
+    <ClCompile Include="pch\pch.cpp">
+      <Filter>pch</Filter>
+    </ClCompile>
+    <ClCompile Include="api\editors\Root.cpp">
+      <Filter>api\editors</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
