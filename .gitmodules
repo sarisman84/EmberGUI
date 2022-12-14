@@ -1,6 +1,3 @@
-[submodule "EmberGUI/imgui"]
-	path = EmberGUI/imgui
-	url = https://github.com/ocornut/imgui
 [submodule "EmberGUI/imguizmo"]
 	path = EmberGUI/imguizmo
 	url = https://github.com/CedricGuillemet/ImGuizmo
